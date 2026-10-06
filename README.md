@@ -91,6 +91,4 @@ The currency/unit is not explicitly documented in the notebook; confirm it from 
 
 - For a robust modeling workflow, fit imputers and encoders on the training data only (preferably with a scikit-learn `Pipeline`/`ColumnTransformer`) to avoid data leakage. Then train a regression model and compare its test MAE with this baseline.
 
-## License and attribution
 
-No license or dataset attribution was provided with the notebook content. Add the dataset source, usage terms, and project license here before redistribution.
